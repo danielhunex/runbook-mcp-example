@@ -2,6 +2,7 @@
   "name": "local-runbook-mcp-example",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "A minimal read-only MCP server for local troubleshooting notes",
   "engines": {
