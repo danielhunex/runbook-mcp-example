@@ -1,7 +1,6 @@
 # Local Runbook MCP Server
 
-A tiny, read-only MCP server for searching two fictional troubleshooting notes. It's the companion code for the article *A Small MCP Server for a Tool I Wanted in VS Code*.
-
+A tiny, read-only MCP server for searching two fictional troubleshooting notes. It's the companion code for the article [*Building Your First Tiny MCP Server*](http://localhost:8080/building-a-small-mcp-server/)
 The server has one tool, `search_runbooks`. It looks for all query words across a runbook's title, tags and checks, then returns matching notes as JSON. It doesn't read your disk, run commands or contact a service.
 
 ## Run locally
@@ -44,10 +43,6 @@ Then ask in agent chat:
 > Call search_runbooks with query "package restore". Show the runbook ID and summarize the checks. Do not execute any steps.
 
 Expand the tool call to confirm that VS Code invoked `search_runbooks`. A plausible answer alone doesn't prove it did.
-
-## Record the article GIF
-
-See [DEMO.md](DEMO.md) for a short recording script. Record in your own VS Code session after the server is connected. The example runs locally, so no credentials or Teams data should appear in the recording.
 
 ## Notes
 
