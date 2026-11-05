@@ -1,0 +1,21 @@
+{
+  "name": "local-runbook-mcp-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal read-only MCP server for local troubleshooting notes",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.4.0"
+  }
+}
